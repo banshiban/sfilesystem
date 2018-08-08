@@ -51,6 +51,7 @@ public class Client {
 					ra.close();
 				} catch (Exception e) {
 					e.printStackTrace();
+					System.out.println("在你眼中我是谁");
 				}
 				
 			}
