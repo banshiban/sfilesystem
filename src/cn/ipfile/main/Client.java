@@ -51,7 +51,6 @@ public class Client {
 					ra.close();
 				} catch (Exception e) {
 					e.printStackTrace();
-					System.out.println();
 				}
 				
 			}
