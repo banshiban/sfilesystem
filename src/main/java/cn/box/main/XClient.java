@@ -1,4 +1,4 @@
-package cn.believeus.entity;
+package cn.box.main;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

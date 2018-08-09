@@ -1,4 +1,4 @@
-package cn.believeus.entity;
+package cn.box.main;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -77,6 +77,7 @@ public class XServer {
 				Log.error(e.getMessage());
 			} catch (FileNotFoundException e1) {
 				e1.printStackTrace();
+				System.out.println();
 			}
 		}
 	}
