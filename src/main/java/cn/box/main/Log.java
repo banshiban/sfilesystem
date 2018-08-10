@@ -8,7 +8,7 @@ import java.util.ResourceBundle;
 
 public class Log {
 	private static FileWriter logout; 
-	private  static final String path=ResourceBundle.getBundle("project").getString("basepath");
+	private  static final String path=ResourceBundle.getBundle("project").getString("name");
 	private static final String name=ResourceBundle.getBundle("project").getString("logname");
 	private static String time=new SimpleDateFormat("yyyy-MM-dd_hh_mm_ss").format(new Date());
 	public static final String log=path+"/"+time+"."+name;
